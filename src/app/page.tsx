@@ -11,8 +11,8 @@ export default function Home() {
           <div className="w-[20%] h-full absolute z-[3] bg-[#535353]">
 
           </div>
-          <div className="w-full px-5 flex gap-10 flex-col justify-center h-full absolute z-[4] bg-black/85">
-              <h3 className="w-fit text-[60px] leading-[86px] font-semibold text-white">Discover Your Next Favorite <br/> Product!</h3>
+          <div className="w-full px-36 flex gap-10 flex-col justify-center h-full absolute z-[4] bg-black/85">
+              <h3 className="w-fit text-[60px] leading-[86px] font-semibold text-white">Empowering Your Business with Cutting- <br /><span className="flex justify-center">Edge Solutions</span></h3>
                
                <CustomBackgroundButton text={"Sign Up for Free"}  buttonName={"!rounded-[4px] "}/>
           </div>
