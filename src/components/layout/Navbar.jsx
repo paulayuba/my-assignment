@@ -36,7 +36,7 @@ export default function Navbar(){
 
     ]
     return(
-        <div className=" w-full h-[158px] px-20 fixed z-[10] flex items-center justify-between bg-transparent">
+        <div className=" w-full h-[158px] px-20 fixed z-20 flex items-center justify-between bg-transparent">
             <div className="w-fit flex flex-row items-center h-fit gap-2">
                 <p className="text-white text-4xl px-1 border-red-100 bg-purple-400 border rounded-full"><svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="0.5" width="40" height="40" rx="20" fill="url(#paint0_linear_1_20)"/>
@@ -57,7 +57,6 @@ export default function Navbar(){
              
             <div className="w-fit h-fit flex gap-6  items-center">
                 {navItems.map((value,l) => (
-                    
                   value.title !== "Try for free" ?  
                   <div key={l} className={`${value.title === "Shop Now" ? "text-[#BBA27B]" : "text-white"} px-1 text-[16px] font-semibold `}>
                      {value.title}
